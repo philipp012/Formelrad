@@ -51,5 +51,7 @@ public class Calculator {
 	
 	/* Hier die Methoden mit den Formlen hinzufügen
 	 */
-	
+	private double calculatePFromUandI(double tension, double current){
+		return tension*current;
+	}
 }
